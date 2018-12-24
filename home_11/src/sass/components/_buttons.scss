@@ -1,0 +1,12 @@
+a.btn {
+  color: white;
+  border-radius: 25px;
+  background: url("../img/backround_btn.png") no-repeat;
+  background-size: cover;
+}
+
+a.btn:focus, a.btn:hover {
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+
+}

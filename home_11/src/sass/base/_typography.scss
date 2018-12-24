@@ -1,0 +1,46 @@
+html {
+  font-family: 'Proxima Nova', sans-serif;
+}
+header {
+  h1, p {
+    text-align: center;
+  }
+  p {
+    color: #a6a6a5;
+  }
+}
+
+h1, h2, h3 {
+  font-size: 22px;
+  @include respond-to(medium-min) {
+    font-size: 32px;
+  }
+}
+section.best-design, section.best-code {
+  color: white;
+  text-align: center;
+}
+section.what-we-do, .about-us {
+  text-align: center;
+  h2 {
+    margin: 15px;
+    text-align: center;
+  }
+  ul {
+    list-style: none;
+  }
+}
+
+
+.map {
+  text-align: center;
+}
+footer {
+  text-align: center;
+    color: #a7acbc;
+    font-size: 18px;
+  font-weight: 300;
+  line-height: 36px;
+
+}
+

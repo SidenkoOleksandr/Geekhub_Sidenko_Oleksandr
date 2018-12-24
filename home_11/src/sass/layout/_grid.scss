@@ -1,0 +1,45 @@
+.best-design {
+  background: url("../img/backround_bestDesign.png") no-repeat;
+  background-size: cover;
+}
+
+.best-code {
+  background: url("../img/backround_bestCode.png") no-repeat;
+  background-size: cover;
+}
+
+section.best-design, section.best-code {
+
+  @include respond-to(medium-min) {
+    margin: -2px;
+    padding: 0;
+    display: inline-block !important;
+  }
+}
+
+.app {
+  text-align: center;
+  img {
+    max-width: 100%;
+  }
+  a {
+    display: inline-block;
+    position: relative;
+  }
+
+}
+
+.hide {
+  display: inline-block;
+  top: 20%;
+  left: 0;
+}
+
+.about-us {
+  background: url("../img/backround_about_us.png") no-repeat;
+  background-size: cover;
+}
+
+
+
+

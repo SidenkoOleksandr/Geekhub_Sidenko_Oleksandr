@@ -1,0 +1,12 @@
+.navbar-brand {
+  text-align: center;
+
+  img {
+    width: 50%;
+    transition: 600ms;
+
+    @include respond-to(medium-min) {
+      width: 100%;
+    }
+  }
+}

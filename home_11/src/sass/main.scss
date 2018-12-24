@@ -4,9 +4,14 @@
 @import 'utils/mixins';
 
 @import 'base/basic';
+@import 'base/typography';
 
 @import 'layout/grid';
 @import 'layout/header';
 @import 'layout/footer';
+
+@import 'components/logo';
+@import 'components/navigation';
+@import 'components/buttons';
 
 @import 'pages/home';
