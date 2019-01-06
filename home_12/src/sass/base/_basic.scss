@@ -1,0 +1,60 @@
+html {
+  font-family: 'Proxima Nova', sans-serif;
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.2rem;
+
+    .panelBody{
+      width: 420px !important;
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.4rem;
+
+    .panelBody{
+      width: 450px !important;
+    }
+  }
+}
+
+.bg{
+  background-color: #a6b9ef;
+}
+.panelBody{
+  padding: 15px ;
+  background-color: #299aef;
+  border-radius: 15px ;
+  width: 320px !important;
+  box-shadow: 0 0 10px #F4E552 !important;
+}
+.rowPad{
+  padding: 5px;
+}
+.inputCss{
+  font-size: 12pt !important;
+  text-align: right !important;
+}
+.resultCss{
+  font-size: 15pt !important;
+  text-align: right !important;
+  font-weight: bold !important;
+  color: #0000ff !important;
+}
+.heading{
+  color: #ffffff ;
+}
+.es{
+  color: #27B627 ;
+}

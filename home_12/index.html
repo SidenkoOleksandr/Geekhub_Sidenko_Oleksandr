@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+
+<body class="bg">
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Calculator</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">standard</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">scientific</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">programmer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">statistic</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<main>
+    <div class="container panelBody">
+        <div>
+            <h2 class="heading">Standard calculator</h2>
+        </div>
+        <input type="text" id="inputData" class="inputCss form-control" />
+        <input type="text" id="result" class="resultCss form-control" placeholder="result here" readonly />
+        <div class="rowPad">
+            <button class="btn btn-primary" onclick="getData('1')">1</button>
+            <button class="btn btn-primary" onclick="getData('2')">2</button>
+            <button class="btn btn-primary" onclick="getData('3')">3</button>
+            <button class="btn btn-primary" onclick="getData('+')">+</button>
+            <button class="btn btn-primary" onclick="getData('-')">-</button>
+            <button class="btn btn-primary" onclick="getData('**')">^</button>
+        </div>
+        <div class="rowPad">
+            <button class="btn btn-primary" onclick="getData('4')">4</button>
+            <button class="btn btn-primary" onclick="getData('5')">5</button>
+            <button class="btn btn-primary" onclick="getData('6')">6</button>
+            <button class="btn btn-primary" onclick="getData('*')">*</button>
+            <button class="btn btn-primary" onclick="getData('/')">/</button>
+            <button class="btn btn-primary" onclick="getData('**', 'radical')">&radic;</button>
+        </div>
+        <div class="rowPad">
+            <button class="btn btn-primary" onclick="getData('7')">7</button>
+            <button class="btn btn-primary" onclick="getData('8')">8</button>
+            <button class="btn btn-primary" onclick="getData('9')">9</button>
+            <button class="btn btn-primary" onclick="getData('%')">rem</button>
+            <button class="btn btn-primary" onclick="getData('Math.cos(')">cos</button>
+            <button class="btn btn-primary" onclick="getData('', 'factorial')">!</button>
+
+
+        </div>
+        <div class="rowPad">
+            <button class="btn btn-primary" onclick="getData('0')">0</button>
+            <button class="btn btn-primary" onclick="getData('.')">.</button>
+            <button class="btn btn-primary" onclick="getData('(')">(</button>
+            <button class="btn btn-primary" onclick="getData(')')">)</button>
+            <button class="btn btn-primary" onclick="getData('%', 'percent')">%</button>
+
+            <button class="btn btn-primary" onclick="getData('Math.sin(')">sin</button>
+        </div>
+        <div class="rowPad">
+            <button type="submit" class="btn btn-info" onclick="inputValidation()">result</button>
+            <button class="btn btn-info" onclick="clearAll()">clear all</button>
+        </div>
+    </div>
+</main>
+<footer>
+</footer>
+
+<script src="assets/js/libs.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
