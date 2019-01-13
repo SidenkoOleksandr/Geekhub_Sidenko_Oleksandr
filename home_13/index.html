@@ -14,6 +14,7 @@
         <section class="adding">
             <h1 class="heading">To do list</h1>
             <button type="submit" class="btn btn-info buttnAdd">Add</button>
+            <button type="submit" class="btn btn-info buttnStrgTask">History</button>
             <input type="text" id="inputTask" class="form-control"
                    style="display: none" placeholder="enter your new task"/>
             <button type="button" class="btn btn-info buttnSave"
@@ -24,42 +25,18 @@
         <section class="listTask">
             <h2 class="heading" style="display: none">List of actual task:</h2>
             <ul class="addedTask">
-                <!--<li>
-                    <input type="text" class="form-control" value="task #1" disabled/>
-                    <button type="button" class="btn btn-info">Edit</button>
-                    <button type="button" class="btn btn-info">Delete</button>
-                </li>
-                <li>
-                    <input type="text" class="form-control" value="task #2" disabled/>
-                    <button type="button" class="btn btn-info">Edit</button>
-                    <button type="button" class="btn btn-info">Delete</button>
-                </li>
-                <li>
-                    <input type="text" class="form-control" value="task #3" disabled/>
-                    <button type="button" class="btn btn-info">Edit</button>
-                    <button type="button" class="btn btn-info">Delete</button>
-                </li>-->
             </ul>
         </section>
-<!--        <section class="listFinishedTask">
-            <h2 class="heading">List of finished task:</h2>
-            <ul id="finishedTask">
-                <li>
-                    <input type="text" class="form-control" value="task #1" disabled/>
-                </li>
-                <li>
-                    <input type="text" class="form-control" value="task #2" disabled/>
-                </li>
-                <li>
-                    <input type="text" class="form-control" value="task #3" disabled/>
-                </li>
+        <section class="finishedTask">
+            <ul class="listFinishedTask">
             </ul>
-        </section>-->
+        </section>
+        <section class="history">
+            <ul class="listHistoryTask">
+            </ul>
+        </section>
     </div>
 </main>
-
-<footer>
-</footer>
 
 <script src="assets/js/main.js"></script>
 </body>
